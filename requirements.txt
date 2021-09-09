@@ -1,0 +1,10 @@
+Things to be download-
+axios
+joi-browser
+react-bootstrap
+font-awesome
+bootstrap
+
+
+
+index.js - font-awesome, bootstrap import statement

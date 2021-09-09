@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.label_name {
+  display: -webkit-flex;
+  font-weight: 500;
+}
+
+.custom_input_group {
+  margin-bottom: 10px;
+}
+
+.form_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userlists {
+  width: 200px;
+  margin: 10px;
+}
+
+.userlists_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.delete_icon {
+  color: red;
+  cursor: pointer;
+}
+
+.edit_icon {
+  color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.userlist_edit {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent !important;
+}
+
+.user_name {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.card-header {
+  padding: 5px 5px 0 0;
+  border-bottom: none !important;
+}
+
+.save_cancel {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #dee2e6;
+  margin: 20px -15px;
+  padding: 20px 20px 0 0;
+}
+
+.btn---success {
+  padding: 5px;
+  color: white;
+  background-color: rgb(162, 194, 97);
+  font-weight: 500;
+  width: 100px;
+  border: 1px solid rgb(162, 194, 97);
+}
+
+.cancel_btn {
+  color: black;
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  width: 100px;
+  margin-right: 10px;
+}
